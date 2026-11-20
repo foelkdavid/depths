@@ -5,12 +5,12 @@ AGENTS.md: read it for engine rules, layout and verification). Working copy of t
 
 ## Repos / remotes
 
-- Local only so far (2026-11-20); `engine` submodule url = /home/david/Repos/vpt-engine. The user will give remote
-  sync locations later: then `git remote add`, and `git submodule set-url engine <url>` + commit.
-  REMIND the user about remotes if they haven't provided them yet.
+- `engine` submodule url = `git@github.com:foelkdavid/vpt-engine.git` (2026-11-20; engine history restarted at a
+  fresh root commit, old local commits are on the engine's local `pre-split-history` branch).
+- Depths itself has no remote yet: REMIND the user until they give one (`git remote add origin <url>`).
 - Engine change needed? Make it in the engine (generic, via hooks: see engine AGENTS "Rule: engine vs game"),
-  commit in ~/Repos/vpt-engine, then here: `git -C engine pull origin main` and commit the submodule bump.
-  Local submodule fetches may need `-c protocol.file.allow=always` (e.g. `git -c protocol.file.allow=always submodule update`).
+  commit AND push in ~/Repos/vpt-engine, then here: `git -C engine pull origin main` and commit the submodule
+  bump. Never commit a submodule pointer that isn't pushed to the engine remote.
 - Reusable mechanics written here (debris, projectiles, hit feedback, third-person camera, minimap/fog, skill tree,
   profiles/bestiary, progression/rifts, generators, creature behaviours) are candidates to promote into the engine.
 
