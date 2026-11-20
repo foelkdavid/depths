@@ -7,7 +7,7 @@ AGENTS.md: read it for engine rules, layout and verification). Working copy of t
 
 - `engine` submodule url = `git@github.com:foelkdavid/vpt-engine.git` (2026-11-20; engine history restarted at a
   fresh root commit, old local commits are on the engine's local `pre-split-history` branch).
-- Depths itself has no remote yet: REMIND the user until they give one (`git remote add origin <url>`).
+- Depths remote: `origin` = `git@github.com:foelkdavid/depths.git` (since 2026-11-21).
 - Engine change needed? Make it in the engine (generic, via hooks: see engine AGENTS "Rule: engine vs game"),
   commit AND push in ~/Repos/vpt-engine, then here: `git -C engine pull origin main` and commit the submodule
   bump. Never commit a submodule pointer that isn't pushed to the engine remote.
