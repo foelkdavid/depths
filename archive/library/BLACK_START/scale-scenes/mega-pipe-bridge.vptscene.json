@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "size": 128,
+  "library": "assets/library/BLACK_START",
+  "lighting": {
+    "azimuth": 225,
+    "elevation": 36,
+    "sun_power": 2,
+    "sky_power": 0.5,
+    "warmth": 0.3,
+    "sun_radius": 1,
+    "exposure": 1,
+    "quality": 1,
+    "bounces": 3,
+    "night": 0
+  },
+  "chunks": [],
+  "instances": [
+    {
+      "asset": "archive/library/BLACK_START/mega-foundation.vpt.json",
+      "x": -12,
+      "y": 0,
+      "z": 2,
+      "rotation": 0,
+      "scale": 1,
+      "wind": 0
+    },
+    {
+      "asset": "archive/library/BLACK_START/mega-foundation.vpt.json",
+      "x": 12,
+      "y": 0,
+      "z": 2,
+      "rotation": 0,
+      "scale": 1,
+      "wind": 0
+    },
+    {
+      "asset": "archive/library/BLACK_START/mega-pipe-bridge.vpt.json",
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "rotation": 0,
+      "scale": 1,
+      "wind": 0
+    },
+    {
+      "asset": "assets/library/BLACK_START/maintenance-hexapod.vpt.json",
+      "x": 0,
+      "y": 1,
+      "z": 7.375,
+      "rotation": 0,
+      "scale": 1,
+      "wind": 0
+    },
+    {
+      "asset": "assets/library/BLACK_START/control-console.vpt.json",
+      "x": -2,
+      "y": 1,
+      "z": 7.375,
+      "rotation": 0,
+      "scale": 1,
+      "wind": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "langrev": "1",
+  "version": "0.1.0",
+  "opt": "O1",
+  "build-dir": "build",
+  "output": "build",
+  "dependency-search-paths": ["engine/lib"],
+  "targets": {
+    "depths": {
+      "type": "executable",
+      "sources": ["src/**", "app/**"],
+      "dependencies": ["raylib6", "vpt"],
+      "x86cpu": "baseline"
+    },
+    "depths-dev": {
+      "type": "executable",
+      "sources": ["src/**", "dev/editor/**", "dev/tests/**"],
+      "dependencies": ["raylib6", "vpt", "vpt_editor"]
+    }
+  }
+}

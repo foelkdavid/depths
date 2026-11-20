@@ -1,0 +1,175 @@
+{
+ "version": 1,
+ "locomotion": {
+  "speed": 0.001,
+  "turn_rate": 1,
+  "body_height": 0,
+  "ground_follow": true
+ },
+ "legs": [],
+ "anchors": [
+  {
+   "chain": [
+    "strand0.root",
+    "strand0.tip"
+   ],
+   "foot": [
+    -0.92,
+    0.1,
+    0.14
+   ],
+   "dir": [
+    -1,
+    0.45,
+    0
+   ],
+   "reach": 0
+  },
+  {
+   "chain": [
+    "strand1.root",
+    "strand1.tip"
+   ],
+   "foot": [
+    0.92,
+    0.1,
+    0.14
+   ],
+   "dir": [
+    1,
+    0.45,
+    0
+   ],
+   "reach": 0
+  },
+  {
+   "chain": [
+    "strand2.root",
+    "strand2.tip"
+   ],
+   "foot": [
+    0,
+    0.1,
+    -0.78
+   ],
+   "dir": [
+    0,
+    0.45,
+    -1
+   ],
+   "reach": 0
+  },
+  {
+   "chain": [
+    "strand3.root",
+    "strand3.tip"
+   ],
+   "foot": [
+    -0.6505,
+    0.1,
+    -0.5105
+   ],
+   "dir": [
+    -0.6,
+    0.55,
+    -0.6
+   ],
+   "reach": 0
+  },
+  {
+   "chain": [
+    "strand4.root",
+    "strand4.tip"
+   ],
+   "foot": [
+    0.6505,
+    0.1,
+    -0.5105
+   ],
+   "dir": [
+    0.6,
+    0.55,
+    -0.6
+   ],
+   "reach": 0
+  },
+  {
+   "chain": [
+    "strand5.root",
+    "strand5.tip"
+   ],
+   "foot": [
+    -0.6505,
+    0.1,
+    0.7905
+   ],
+   "dir": [
+    -0.7,
+    0.3,
+    0.7
+   ],
+   "reach": 0
+  },
+  {
+   "chain": [
+    "strand6.root",
+    "strand6.tip"
+   ],
+   "foot": [
+    0.6505,
+    0.1,
+    0.7905
+   ],
+   "dir": [
+    0.7,
+    0.3,
+    0.7
+   ],
+   "reach": 0
+  }
+ ],
+ "pulses": [
+  {
+   "part": "sac0",
+   "amount": 0.07,
+   "rate": 0.32,
+   "sway": 4,
+   "vary": 0.85
+  },
+  {
+   "part": "sac1",
+   "amount": 0.085,
+   "rate": 0.41000000000000003,
+   "sway": 6,
+   "vary": 0.85
+  },
+  {
+   "part": "sac2",
+   "amount": 0.1,
+   "rate": 0.5,
+   "sway": 4,
+   "vary": 0.85
+  },
+  {
+   "part": "sac3",
+   "amount": 0.07,
+   "rate": 0.5900000000000001,
+   "sway": 6,
+   "vary": 0.85
+  },
+  {
+   "part": "sac4",
+   "amount": 0.085,
+   "rate": 0.32,
+   "sway": 4,
+   "vary": 0.85
+  },
+  {
+   "part": "sac5",
+   "amount": 0.1,
+   "rate": 0.41000000000000003,
+   "sway": 6,
+   "vary": 0.85
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "version": 1,
+ "hinge": [
+  0,
+  0.528,
+  0.4
+ ],
+ "weapons": [
+  {
+   "name": "mg",
+   "parts": [
+    {
+     "asset": "parts-hexapod/weapon-mg.vpt.json",
+     "role": "base",
+     "at": [
+      0,
+      0.48,
+      0.44
+     ]
+    },
+    {
+     "asset": "parts-hexapod/weapon-mg-barrel0.vpt.json",
+     "role": "barrel",
+     "at": [
+      -0.09,
+      0.52,
+      0.55
+     ]
+    },
+    {
+     "asset": "parts-hexapod/weapon-mg-barrel1.vpt.json",
+     "role": "barrel",
+     "at": [
+      0.09,
+      0.52,
+      0.55
+     ]
+    }
+   ],
+   "muzzles": [
+    [
+     -0.092,
+     0.564,
+     0.668
+    ],
+    [
+     0.092,
+     0.564,
+     0.668
+    ]
+   ]
+  },
+  {
+   "name": "rocket",
+   "parts": [
+    {
+     "asset": "parts-hexapod/weapon-rocket.vpt.json",
+     "role": "base",
+     "at": [
+      0,
+      0.42,
+      0.5
+     ]
+    }
+   ],
+   "muzzles": [
+    [
+     -0.066,
+     0.5,
+     0.696
+    ],
+    [
+     0.066,
+     0.5,
+     0.696
+    ]
+   ]
+  },
+  {
+   "name": "shotgun",
+   "parts": [
+    {
+     "asset": "parts-hexapod/weapon-shotgun.vpt.json",
+     "role": "base",
+     "at": [
+      0,
+      0.46,
+      0.56
+     ]
+    },
+    {
+     "asset": "parts-hexapod/weapon-shotgun-pump.vpt.json",
+     "role": "pump",
+     "at": [
+      0,
+      0.44,
+      0.6
+     ]
+    }
+   ],
+   "muzzles": [
+    [
+     0,
+     0.552,
+     0.776
+    ]
+   ]
+  }
+ ],
+ "mounts": [
+  {
+   "name": "under",
+   "fold": 1,
+   "hinge": [
+    0,
+    0.528,
+    0.4
+   ],
+   "parts": [
+    {
+     "asset": "parts-hexapod/mount-under.vpt.json",
+     "role": "mount",
+     "at": [
+      0,
+      0.46,
+      0.39
+     ]
+    }
+   ],
+   "multi": [
+    {
+     "guns": [
+      0
+     ],
+     "asset": "parts-hexapod/mount-under-1.vpt.json",
+     "at": [
+      0,
+      0.46,
+      0.39
+     ]
+    },
+    {
+     "guns": [
+      -0.16,
+      0.16
+     ],
+     "asset": "parts-hexapod/mount-under-2.vpt.json",
+     "at": [
+      0,
+      0.46,
+      0.39
+     ]
+    },
+    {
+     "guns": [
+      -0.3,
+      0,
+      0.3
+     ],
+     "asset": "parts-hexapod/mount-under-3.vpt.json",
+     "at": [
+      0,
+      0.46,
+      0.39
+     ]
+    }
+   ]
+  },
+  {
+   "name": "top",
+   "fold": -1,
+   "hinge": [
+    0,
+    0.92,
+    0.2
+   ],
+   "parts": [
+    {
+     "asset": "parts-hexapod/mount-top.vpt.json",
+     "role": "mount",
+     "at": [
+      0,
+      0.78,
+      0.2
+     ]
+    }
+   ],
+   "multi": [
+    {
+     "guns": [
+      0
+     ],
+     "asset": "parts-hexapod/mount-top-1.vpt.json",
+     "at": [
+      0,
+      0.78,
+      0.2
+     ]
+    },
+    {
+     "guns": [
+      -0.16,
+      0.16
+     ],
+     "asset": "parts-hexapod/mount-top-2.vpt.json",
+     "at": [
+      0,
+      0.78,
+      0.2
+     ]
+    },
+    {
+     "guns": [
+      -0.3,
+      0,
+      0.3
+     ],
+     "asset": "parts-hexapod/mount-top-3.vpt.json",
+     "at": [
+      0,
+      0.78,
+      0.2
+     ]
+    }
+   ]
+  }
+ ],
+ "upgrades": [
+  {
+   "name": "armor-1",
+   "asset": "parts-hexapod/armor-1.vpt.json",
+   "at": [
+    0,
+    0.54,
+    0
+   ],
+   "anchors": []
+  },
+  {
+   "name": "armor-2",
+   "asset": "parts-hexapod/armor-2.vpt.json",
+   "at": [
+    0,
+    0.72,
+    0.35
+   ],
+   "anchors": []
+  },
+  {
+   "name": "armor-3",
+   "asset": "parts-hexapod/armor-3.vpt.json",
+   "at": [
+    0,
+    0.48,
+    -0.12
+   ],
+   "anchors": []
+  },
+  {
+   "name": "scanner-mast",
+   "asset": "parts-hexapod/scanner-mast.vpt.json",
+   "at": [
+    0.18,
+    0.78,
+    -0.28
+   ],
+   "anchors": []
+  },
+  {
+   "name": "scanner-dish",
+   "asset": "parts-hexapod/scanner-dish.vpt.json",
+   "at": [
+    0.18,
+    1.06,
+    -0.27
+   ],
+   "anchors": []
+  },
+  {
+   "name": "optic",
+   "asset": "parts-hexapod/optic.vpt.json",
+   "at": [
+    0.2,
+    0.78,
+    0.36
+   ],
+   "anchors": [
+    [
+     0.194,
+     0.846,
+     0.456
+    ]
+   ]
+  },
+  {
+   "name": "coolant-cell",
+   "asset": "parts-hexapod/coolant-cell.vpt.json",
+   "at": [
+    -0.19,
+    0.78,
+    -0.12
+   ],
+   "anchors": []
+  },
+  {
+   "name": "thrusters",
+   "asset": "parts-hexapod/thrusters.vpt.json",
+   "at": [
+    0,
+    0.5,
+    -0.47
+   ],
+   "anchors": [
+    [
+     -0.13,
+     0.56,
+     -0.556
+    ],
+    [
+     0.13,
+     0.56,
+     -0.556
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "version": 1,
+ "name": "alien-flutter",
+ "parts": [
+  {
+   "name": "body",
+   "parent": "",
+   "asset": "parts-flutter/body.vpt.json",
+   "joint": [
+    0,
+    0.15,
+    -0.0062
+   ],
+   "shift": [
+    0,
+    0.0625,
+    -0.0812
+   ]
+  },
+  {
+   "name": "head",
+   "parent": "body",
+   "asset": "parts-flutter/head.vpt.json",
+   "joint": [
+    0,
+    0.15,
+    0.1188
+   ],
+   "shift": [
+    0,
+    0.0875,
+    0.1938
+   ]
+  },
+  {
+   "name": "leg0.femur",
+   "parent": "body",
+   "asset": "parts-flutter/leg0.femur.vpt.json",
+   "joint": [
+    -0.05,
+    0.15,
+    0.0688
+   ],
+   "shift": [
+    -0.1063,
+    0.1375,
+    0.0875
+   ]
+  },
+  {
+   "name": "leg0.tibia",
+   "parent": "leg0.femur",
+   "asset": "parts-flutter/leg0.tibia.vpt.json",
+   "joint": [
+    -0.1625,
+    0.1875,
+    0.1063
+   ],
+   "shift": [
+    -0.2,
+    0,
+    0.1313
+   ]
+  },
+  {
+   "name": "leg1.femur",
+   "parent": "body",
+   "asset": "parts-flutter/leg1.femur.vpt.json",
+   "joint": [
+    -0.05,
+    0.15,
+    -0.0062
+   ],
+   "shift": [
+    -0.1125,
+    0.1375,
+    -0.0062
+   ]
+  },
+  {
+   "name": "leg1.tibia",
+   "parent": "leg1.femur",
+   "asset": "parts-flutter/leg1.tibia.vpt.json",
+   "joint": [
+    -0.175,
+    0.1875,
+    -0.0062
+   ],
+   "shift": [
+    -0.2063,
+    0,
+    -0.0062
+   ]
+  },
+  {
+   "name": "leg2.femur",
+   "parent": "body",
+   "asset": "parts-flutter/leg2.femur.vpt.json",
+   "joint": [
+    -0.05,
+    0.15,
+    -0.0812
+   ],
+   "shift": [
+    -0.1188,
+    0.1375,
+    -0.1
+   ]
+  },
+  {
+   "name": "leg2.tibia",
+   "parent": "leg2.femur",
+   "asset": "parts-flutter/leg2.tibia.vpt.json",
+   "joint": [
+    -0.1875,
+    0.1875,
+    -0.1187
+   ],
+   "shift": [
+    -0.225,
+    0,
+    -0.1437
+   ]
+  },
+  {
+   "name": "wingL0",
+   "parent": "body",
+   "asset": "parts-flutter/wingL0.vpt.json",
+   "joint": [
+    -0.05,
+    0.2,
+    0.0438
+   ],
+   "shift": [
+    -0.2188,
+    0.1875,
+    0
+   ]
+  },
+  {
+   "name": "wingL1",
+   "parent": "body",
+   "asset": "parts-flutter/wingL1.vpt.json",
+   "joint": [
+    -0.05,
+    0.2,
+    -0.0687
+   ],
+   "shift": [
+    -0.2188,
+    0.1875,
+    -0.125
+   ]
+  },
+  {
+   "name": "leg3.femur",
+   "parent": "body",
+   "asset": "parts-flutter/leg3.femur.vpt.json",
+   "joint": [
+    0.05,
+    0.15,
+    0.0688
+   ],
+   "shift": [
+    0.1062,
+    0.1375,
+    0.0875
+   ]
+  },
+  {
+   "name": "leg3.tibia",
+   "parent": "leg3.femur",
+   "asset": "parts-flutter/leg3.tibia.vpt.json",
+   "joint": [
+    0.1625,
+    0.1875,
+    0.1063
+   ],
+   "shift": [
+    0.2,
+    0,
+    0.1313
+   ]
+  },
+  {
+   "name": "leg4.femur",
+   "parent": "body",
+   "asset": "parts-flutter/leg4.femur.vpt.json",
+   "joint": [
+    0.05,
+    0.15,
+    -0.0062
+   ],
+   "shift": [
+    0.1125,
+    0.1375,
+    -0.0062
+   ]
+  },
+  {
+   "name": "leg4.tibia",
+   "parent": "leg4.femur",
+   "asset": "parts-flutter/leg4.tibia.vpt.json",
+   "joint": [
+    0.175,
+    0.1875,
+    -0.0062
+   ],
+   "shift": [
+    0.2062,
+    0,
+    -0.0062
+   ]
+  },
+  {
+   "name": "leg5.femur",
+   "parent": "body",
+   "asset": "parts-flutter/leg5.femur.vpt.json",
+   "joint": [
+    0.05,
+    0.15,
+    -0.0812
+   ],
+   "shift": [
+    0.1187,
+    0.1375,
+    -0.1
+   ]
+  },
+  {
+   "name": "leg5.tibia",
+   "parent": "leg5.femur",
+   "asset": "parts-flutter/leg5.tibia.vpt.json",
+   "joint": [
+    0.1875,
+    0.1875,
+    -0.1187
+   ],
+   "shift": [
+    0.225,
+    0,
+    -0.1437
+   ]
+  },
+  {
+   "name": "wingR0",
+   "parent": "body",
+   "asset": "parts-flutter/wingR0.vpt.json",
+   "joint": [
+    0.05,
+    0.2,
+    0.0438
+   ],
+   "shift": [
+    0.2187,
+    0.1875,
+    0
+   ]
+  },
+  {
+   "name": "wingR1",
+   "parent": "body",
+   "asset": "parts-flutter/wingR1.vpt.json",
+   "joint": [
+    0.05,
+    0.2,
+    -0.0687
+   ],
+   "shift": [
+    0.2187,
+    0.1875,
+    -0.125
+   ]
+  }
+ ]
+}

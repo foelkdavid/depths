@@ -1,0 +1,30 @@
+{
+ "script": "build-flutter.js",
+ "note": "SHA-256 of generated files; see generated-guard.js",
+ "files": {
+  "alien-flutter.anim.json": "85a5a4f090364cfe3363145387c505cbb315cd347f32eddee7da9c7f5c1284a1",
+  "alien-flutter.materials.json": "7592f9bb6161e25240b96b69846000586bd2afca865724f2e2505bd94c1618d4",
+  "alien-flutter.rig.json": "aa35deb6be77423e4b3585917ceb91488b3849e7015ee048f49a713e4a454cf5",
+  "alien-flutter.vpt.json": "576295226c62ffbe1660b9f8fc6dfe1ebb23e0b9a0a72cabff3d35a0c2db64a0",
+  "parts-flutter/body.vpt.json": "b7f9163e1bc9c0d933988ca1a8a78cd5b57a0fdbf2f1d02fb9d3c6cfec04ec21",
+  "parts-flutter/head.vpt.json": "d103b1f5150512ba2eebe8b8d8679726970a555e7acf465362a5e6f6e3b06051",
+  "parts-flutter/leg0.femur.vpt.json": "f50741967daa40bf336edd153339b6c85774fd020d4f95e4f28e49c53835fa3d",
+  "parts-flutter/leg0.tibia.vpt.json": "d3b84b1ae2c5c8eac3f9cf92caf19b59e2b3f502f3634aa847b27b7a6657b476",
+  "parts-flutter/leg1.femur.vpt.json": "e7a0d64b8b4bd252ba67d74311f07da3243033a8f51cdf44e8bb7c1184591c68",
+  "parts-flutter/leg1.tibia.vpt.json": "5674b1475d5237b6c9274a544abdc38deb256bd7fab9a94a52cdd18ddcdcd1c0",
+  "parts-flutter/leg2.femur.vpt.json": "60bc549bc3c395434adb060f6c950aaec34f95496493a17785fa071ff9d6bfc2",
+  "parts-flutter/leg2.tibia.vpt.json": "035af55a57f23e64c3eb2456de6e41162f83149916473b17efc5bb7476741615",
+  "parts-flutter/leg3.femur.vpt.json": "a5a5a063b43b0eb473d329c58e8a8956e899412605063e00caf8f4ae4eba9c2a",
+  "parts-flutter/leg3.tibia.vpt.json": "6897d9ee7e5766b4d978f385b4878889fc5f967453d41861a49e396543e9357b",
+  "parts-flutter/leg4.femur.vpt.json": "a720974c6f9ec028227a9b5d63b478b75d351a6786e255928fe2c09f67e81634",
+  "parts-flutter/leg4.tibia.vpt.json": "8719f48b7b1640bab75ac2befe9355213d03f8d5ee7b7b355b74326172a72354",
+  "parts-flutter/leg5.femur.vpt.json": "aee3b058a8a557813e2d32c76e8fdf1e3b84617a640bee65d09135782eeda7eb",
+  "parts-flutter/leg5.tibia.vpt.json": "05b8bfa4ecf5f9d8ddd345fb46b32bea44f2dee7743a95f60a73f8e59d171953",
+  "parts-flutter/materials.json": "7592f9bb6161e25240b96b69846000586bd2afca865724f2e2505bd94c1618d4",
+  "parts-flutter/wingL0.vpt.json": "d4f3deaf8dff9e316e94a9370063dbb73d48a6b4eca59c9d2adbc6229fd6d89e",
+  "parts-flutter/wingL1.vpt.json": "4be50e7df66f8de374917315546340cb5e0f19d46fc9f27f0ea779f91e0c485f",
+  "parts-flutter/wingR0.vpt.json": "9897d66ede596ea2e970c987d531f432db3446dc9abf35bc5a710cd64ffe1716",
+  "parts-flutter/wingR1.vpt.json": "5908dcb11d66eeb93122610e7cd9aafd0c470751dcd9b028082ca6d638ed32dd",
+  "vox/alien-flutter.vox": "c661bde16a866b21118302e54f9238016da16cb6b3bff783fa829911d5cf3dfa"
+ }
+}

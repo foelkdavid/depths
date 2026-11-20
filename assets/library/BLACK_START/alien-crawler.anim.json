@@ -1,0 +1,199 @@
+{
+ "version": 1,
+ "locomotion": {
+  "speed": 3.4,
+  "turn_rate": 540,
+  "body_height": 0,
+  "ground_follow": true,
+  "accel": 14,
+  "erratic": 0.9,
+  "accel_pitch": 0.03,
+  "turn_roll": 0.05
+ },
+ "legs": [
+  {
+   "chain": [
+    "leg0.femur",
+    "leg0.tibia"
+   ],
+   "foot": [
+    -1,
+    0,
+    0.925
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg1.femur",
+    "leg1.tibia"
+   ],
+   "foot": [
+    -1.125,
+    0,
+    0.425
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg2.femur",
+    "leg2.tibia"
+   ],
+   "foot": [
+    -1.15,
+    0,
+    0.025
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg3.femur",
+    "leg3.tibia"
+   ],
+   "foot": [
+    -1.125,
+    0,
+    -0.375
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg4.femur",
+    "leg4.tibia"
+   ],
+   "foot": [
+    -1.025,
+    0,
+    -0.875
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg5.femur",
+    "leg5.tibia"
+   ],
+   "foot": [
+    1,
+    0,
+    0.925
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg6.femur",
+    "leg6.tibia"
+   ],
+   "foot": [
+    1.125,
+    0,
+    0.425
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg7.femur",
+    "leg7.tibia"
+   ],
+   "foot": [
+    1.15,
+    0,
+    0.025
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg8.femur",
+    "leg8.tibia"
+   ],
+   "foot": [
+    1.125,
+    0,
+    -0.375
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg9.femur",
+    "leg9.tibia"
+   ],
+   "foot": [
+    1.025,
+    0,
+    -0.875
+   ],
+   "group": 1
+  }
+ ],
+ "gait": {
+  "stride": 0.42,
+  "lift": 0.16,
+  "step_time": 0.12,
+  "fidget": 4
+ },
+ "look": {
+  "part": "body",
+  "yaw_limit": 20,
+  "pitch_min": -12,
+  "pitch_max": 12,
+  "stiffness": 32,
+  "scan_min": 0.08,
+  "scan_max": 0.55,
+  "scan_range": 140,
+  "lean": 0.06,
+  "crouch": 0.25,
+  "roll": 9
+ },
+ "springs": [
+  {
+   "part": "tail1",
+   "stiffness": 45,
+   "damping": 3,
+   "gain": 2.5
+  },
+  {
+   "part": "tail2",
+   "stiffness": 30,
+   "damping": 2,
+   "gain": 3.5
+  }
+ ],
+ "twitches": [
+  {
+   "part": "head",
+   "amount": 22,
+   "rate": 5
+  },
+  {
+   "part": "mandible.l",
+   "amount": 28,
+   "rate": 9
+  },
+  {
+   "part": "mandible.r",
+   "amount": 28,
+   "rate": 10
+  },
+  {
+   "part": "feeler.l",
+   "amount": 40,
+   "rate": 7
+  },
+  {
+   "part": "feeler.r",
+   "amount": 40,
+   "rate": 8
+  }
+ ],
+ "bob": {
+  "part": "body",
+  "amount": 0.035
+ }
+}

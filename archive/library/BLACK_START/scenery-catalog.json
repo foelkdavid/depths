@@ -1,0 +1,244 @@
+[
+  {
+    "name": "rock-boulder-low",
+    "voxel_size": 0.1,
+    "dimensions": [
+      55,
+      43,
+      27
+    ],
+    "voxels": 37552,
+    "description": "Low broad 5m basalt boulder; bevelled planes and subtle strata."
+  },
+  {
+    "name": "rock-boulder-split",
+    "voxel_size": 0.1,
+    "dimensions": [
+      61,
+      47,
+      44
+    ],
+    "voxels": 64105,
+    "description": "Split basalt boulder with a deep inclined cleft; two uneven halves."
+  },
+  {
+    "name": "rock-boulder-upright",
+    "voxel_size": 0.1,
+    "dimensions": [
+      47,
+      35,
+      58
+    ],
+    "voxels": 49038,
+    "description": "Upright wind-worn pale boulder; angled cap, buttress and broad sediment bands."
+  },
+  {
+    "name": "rock-layered-outcrop",
+    "voxel_size": 0.2,
+    "dimensions": [
+      106,
+      51,
+      65
+    ],
+    "voxels": 184837,
+    "description": "~20m layered escarpment, staggered slabs and slanted exposed strata."
+  },
+  {
+    "name": "rock-spire-cluster",
+    "voxel_size": 0.25,
+    "dimensions": [
+      65,
+      48,
+      92
+    ],
+    "voxels": 116996,
+    "description": "~23m tall eroded basalt needles; three unequal spires and a shared rocky foot."
+  },
+  {
+    "name": "rock-natural-arch",
+    "voxel_size": 0.25,
+    "dimensions": [
+      96,
+      39,
+      66
+    ],
+    "voxels": 102480,
+    "description": "~22m natural stone arch with an open passage, asymmetric piers and a massive sloped lintel."
+  },
+  {
+    "name": "rock-scree-patch",
+    "voxel_size": 0.1,
+    "dimensions": [
+      77,
+      61,
+      10
+    ],
+    "voxels": 13294,
+    "description": "Loose field of fifteen angular stones, varying size and orientation; no artificial slab underneath."
+  },
+  {
+    "name": "dead-tree-crooked",
+    "voxel_size": 0.075,
+    "dimensions": [
+      68,
+      43,
+      93
+    ],
+    "voxels": 4700,
+    "description": "~7m crooked leafless tree; exposed roots, leaning trunk and snapped asymmetric limbs."
+  },
+  {
+    "name": "dead-tree-forked",
+    "voxel_size": 0.075,
+    "dimensions": [
+      61,
+      42,
+      95
+    ],
+    "voxels": 6060,
+    "description": "Tall forked dead tree; heavier charred base and two bleached, broken crowns."
+  },
+  {
+    "name": "dead-tree-fallen",
+    "voxel_size": 0.075,
+    "dimensions": [
+      83,
+      34,
+      23
+    ],
+    "voxels": 4566,
+    "description": "Fallen trunk with pale broken end grain and three snapped branches; ~6m long."
+  },
+  {
+    "name": "dead-stump-hollow",
+    "voxel_size": 0.05,
+    "dimensions": [
+      24,
+      25,
+      45
+    ],
+    "voxels": 5293,
+    "description": "Hollow broken stump with a dark heart, exposed pale rim, splinters and roots."
+  },
+  {
+    "name": "dead-scrub-spreading",
+    "voxel_size": 0.05,
+    "dimensions": [
+      63,
+      62,
+      36
+    ],
+    "voxels": 1393,
+    "description": "Low spreading wind-flattened dead scrub, radial twisted twigs; no leaves."
+  },
+  {
+    "name": "dead-scrub-upright",
+    "voxel_size": 0.05,
+    "dimensions": [
+      38,
+      39,
+      43
+    ],
+    "voxels": 1080,
+    "description": "Narrow upright dead thorn scrub, irregular twigs; no leaves."
+  },
+  {
+    "name": "dead-agave",
+    "voxel_size": 0.05,
+    "dimensions": [
+      42,
+      38,
+      32
+    ],
+    "voxels": 1223,
+    "description": "Desiccated alien rosette: nine broad drooping blades and a brittle central spear; bone-grey, no green."
+  },
+  {
+    "name": "corridor-clean-floor",
+    "voxel_size": 0.05,
+    "dimensions": [
+      80,
+      80,
+      6
+    ],
+    "voxels": 37768,
+    "description": "4m square quiet deck: four broad plates, recessed cross seam, sparse amber edge markers. Walking surface Y=0.3m."
+  },
+  {
+    "name": "corridor-clean-wall",
+    "voxel_size": 0.05,
+    "dimensions": [
+      80,
+      10,
+      64
+    ],
+    "voxels": 39124,
+    "description": "4m x 3.2m double-sided wall; large flat panels, restrained base trim, one seam, no voxel speckle."
+  },
+  {
+    "name": "corridor-clean-window",
+    "voxel_size": 0.05,
+    "dimensions": [
+      80,
+      8,
+      64
+    ],
+    "voxels": 31976,
+    "description": "4m clean wall with a broad transparent observation pane and one mullion; matches the existing glass material."
+  },
+  {
+    "name": "corridor-clean-doorway",
+    "voxel_size": 0.05,
+    "dimensions": [
+      80,
+      9,
+      64
+    ],
+    "voxels": 13608,
+    "description": "Open 2.8m-wide, 2.7m-high passage frame; broad surfaces, warm header light, access panel."
+  },
+  {
+    "name": "corridor-clean-straight",
+    "voxel_size": 0.05,
+    "dimensions": [
+      80,
+      80,
+      70
+    ],
+    "voxels": 108868,
+    "description": "Open-top 4m straight module: smooth floor, two 3.2m walls, one observation window. Overall height 3.5m."
+  },
+  {
+    "name": "corridor-clean-corner",
+    "voxel_size": 0.05,
+    "dimensions": [
+      80,
+      80,
+      70
+    ],
+    "voxels": 112656,
+    "description": "Open-top 4m corner module, openings on +X and -Y in the Z-up source; broad unbroken panels."
+  },
+  {
+    "name": "corridor-clean-junction",
+    "voxel_size": 0.05,
+    "dimensions": [
+      80,
+      80,
+      70
+    ],
+    "voxels": 69744,
+    "description": "Open-top 4m T-junction: one glazed back wall, three matching full-width connections."
+  },
+  {
+    "name": "corridor-clean-ceiling",
+    "voxel_size": 0.05,
+    "dimensions": [
+      80,
+      80,
+      4
+    ],
+    "voxels": 25600,
+    "description": "4m removable ceiling tile; two recessed warm linear lights on underside, broad clean panels. Place at Y=3.5m over complete modules."
+  }
+]

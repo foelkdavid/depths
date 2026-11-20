@@ -1,0 +1,137 @@
+{
+ "version": 1,
+ "locomotion": {
+  "speed": 1.6,
+  "turn_rate": 420,
+  "ground_follow": true,
+  "accel": 16,
+  "erratic": 0.5
+ },
+ "legs": [
+  {
+   "chain": [
+    "leg0.femur",
+    "leg0.tibia"
+   ],
+   "foot": [
+    -0.2375,
+    0,
+    0.1563
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg1.femur",
+    "leg1.tibia"
+   ],
+   "foot": [
+    -0.25,
+    0,
+    -0.0062
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg2.femur",
+    "leg2.tibia"
+   ],
+   "foot": [
+    -0.2625,
+    0,
+    -0.1687
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg3.femur",
+    "leg3.tibia"
+   ],
+   "foot": [
+    0.2375,
+    0,
+    0.1563
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg4.femur",
+    "leg4.tibia"
+   ],
+   "foot": [
+    0.25,
+    0,
+    -0.0062
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg5.femur",
+    "leg5.tibia"
+   ],
+   "foot": [
+    0.2625,
+    0,
+    -0.1687
+   ],
+   "group": 1
+  }
+ ],
+ "gait": {
+  "stride": 0.15,
+  "lift": 0.045,
+  "step_time": 0.09,
+  "fidget": 1.5
+ },
+ "look": {
+  "part": "head",
+  "yaw_limit": 35,
+  "pitch_min": -20,
+  "pitch_max": 25,
+  "stiffness": 30,
+  "scan_min": 0.2,
+  "scan_max": 0.8,
+  "scan_range": 100
+ },
+ "twitches": [
+  {
+   "part": "head",
+   "amount": 12,
+   "rate": 4
+  }
+ ],
+ "wings": [
+  {
+   "part": "wingL0",
+   "side": -1,
+   "rate": 17,
+   "amount": 48,
+   "fold": 68
+  },
+  {
+   "part": "wingL1",
+   "side": -1,
+   "rate": 17,
+   "amount": 48,
+   "fold": 68
+  },
+  {
+   "part": "wingR0",
+   "side": 1,
+   "rate": 17,
+   "amount": 48,
+   "fold": 68
+  },
+  {
+   "part": "wingR1",
+   "side": 1,
+   "rate": 17,
+   "amount": 48,
+   "fold": 68
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "version": 1,
+ "name": "alien-skitter",
+ "parts": [
+  {
+   "name": "body",
+   "asset": "parts-skitter/body.vpt.json",
+   "parent": "",
+   "shift": [
+    0,
+    0.07,
+    -0.045
+   ],
+   "joint": [
+    0,
+    0.11,
+    -0.01
+   ]
+  },
+  {
+   "name": "fang.l",
+   "asset": "parts-skitter/fang.l.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.015,
+    0.05,
+    0.075
+   ],
+   "joint": [
+    -0.016,
+    0.096,
+    0.066
+   ]
+  },
+  {
+   "name": "fang.r",
+   "asset": "parts-skitter/fang.r.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.015,
+    0.05,
+    0.075
+   ],
+   "joint": [
+    0.016,
+    0.096,
+    0.066
+   ]
+  },
+  {
+   "name": "leg0.femur",
+   "asset": "parts-skitter/leg0.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.085,
+    0.1,
+    0.07
+   ],
+   "joint": [
+    -0.038,
+    0.11,
+    0.04
+   ]
+  },
+  {
+   "name": "leg0.tibia",
+   "asset": "parts-skitter/leg0.tibia.vpt.json",
+   "parent": "leg0.femur",
+   "shift": [
+    -0.185,
+    0.01,
+    0.145
+   ],
+   "joint": [
+    -0.1289,
+    0.2075,
+    0.1075
+   ]
+  },
+  {
+   "name": "leg1.femur",
+   "asset": "parts-skitter/leg1.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.09,
+    0.1,
+    0.02
+   ],
+   "joint": [
+    -0.038,
+    0.11,
+    0.015
+   ]
+  },
+  {
+   "name": "leg1.tibia",
+   "asset": "parts-skitter/leg1.tibia.vpt.json",
+   "parent": "leg1.femur",
+   "shift": [
+    -0.2,
+    0,
+    0.05
+   ],
+   "joint": [
+    -0.1379,
+    0.2225,
+    0.0375
+   ]
+  },
+  {
+   "name": "leg2.femur",
+   "asset": "parts-skitter/leg2.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.09,
+    0.1,
+    -0.02
+   ],
+   "joint": [
+    -0.038,
+    0.11,
+    -0.01
+   ]
+  },
+  {
+   "name": "leg2.tibia",
+   "asset": "parts-skitter/leg2.tibia.vpt.json",
+   "parent": "leg2.femur",
+   "shift": [
+    -0.195,
+    0.01,
+    -0.045
+   ],
+   "joint": [
+    -0.1379,
+    0.2225,
+    -0.0325
+   ]
+  },
+  {
+   "name": "leg3.femur",
+   "asset": "parts-skitter/leg3.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.08,
+    0.1,
+    -0.07
+   ],
+   "joint": [
+    -0.038,
+    0.11,
+    -0.035
+   ]
+  },
+  {
+   "name": "leg3.tibia",
+   "asset": "parts-skitter/leg3.tibia.vpt.json",
+   "parent": "leg3.femur",
+   "shift": [
+    -0.18,
+    0,
+    -0.14
+   ],
+   "joint": [
+    -0.1244,
+    0.2075,
+    -0.1025
+   ]
+  },
+  {
+   "name": "leg4.femur",
+   "asset": "parts-skitter/leg4.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.085,
+    0.1,
+    0.07
+   ],
+   "joint": [
+    0.038,
+    0.11,
+    0.04
+   ]
+  },
+  {
+   "name": "leg4.tibia",
+   "asset": "parts-skitter/leg4.tibia.vpt.json",
+   "parent": "leg4.femur",
+   "shift": [
+    0.185,
+    0.01,
+    0.145
+   ],
+   "joint": [
+    0.1289,
+    0.2075,
+    0.1075
+   ]
+  },
+  {
+   "name": "leg5.femur",
+   "asset": "parts-skitter/leg5.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.09,
+    0.1,
+    0.02
+   ],
+   "joint": [
+    0.038,
+    0.11,
+    0.015
+   ]
+  },
+  {
+   "name": "leg5.tibia",
+   "asset": "parts-skitter/leg5.tibia.vpt.json",
+   "parent": "leg5.femur",
+   "shift": [
+    0.2,
+    0,
+    0.05
+   ],
+   "joint": [
+    0.1379,
+    0.2225,
+    0.0375
+   ]
+  },
+  {
+   "name": "leg6.femur",
+   "asset": "parts-skitter/leg6.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.09,
+    0.1,
+    -0.02
+   ],
+   "joint": [
+    0.038,
+    0.11,
+    -0.01
+   ]
+  },
+  {
+   "name": "leg6.tibia",
+   "asset": "parts-skitter/leg6.tibia.vpt.json",
+   "parent": "leg6.femur",
+   "shift": [
+    0.195,
+    0.01,
+    -0.045
+   ],
+   "joint": [
+    0.1379,
+    0.2225,
+    -0.0325
+   ]
+  },
+  {
+   "name": "leg7.femur",
+   "asset": "parts-skitter/leg7.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.08,
+    0.1,
+    -0.07
+   ],
+   "joint": [
+    0.038,
+    0.11,
+    -0.035
+   ]
+  },
+  {
+   "name": "leg7.tibia",
+   "asset": "parts-skitter/leg7.tibia.vpt.json",
+   "parent": "leg7.femur",
+   "shift": [
+    0.18,
+    0,
+    -0.14
+   ],
+   "joint": [
+    0.1244,
+    0.2075,
+    -0.1025
+   ]
+  }
+ ]
+}

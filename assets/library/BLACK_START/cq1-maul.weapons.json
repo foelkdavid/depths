@@ -1,0 +1,77 @@
+{
+ "version": 1,
+ "hinge": [
+  0,
+  0.54,
+  0.31
+ ],
+ "weapons": [
+  {
+   "name": "shotgun",
+   "parts": [
+    {
+     "asset": "parts-maul/weapon-receiver.vpt.json",
+     "role": "base",
+     "at": [
+      0,
+      0.46,
+      0.27
+     ]
+    },
+    {
+     "asset": "parts-maul/weapon-barrel0.vpt.json",
+     "role": "barrel",
+     "at": [
+      -0.06,
+      0.5,
+      0.62
+     ]
+    },
+    {
+     "asset": "parts-maul/weapon-barrel1.vpt.json",
+     "role": "barrel",
+     "at": [
+      0.06,
+      0.5,
+      0.62
+     ]
+    }
+   ],
+   "muzzles": [
+    [
+     -0.058,
+     0.56,
+     0.882
+    ],
+    [
+     0.058,
+     0.56,
+     0.882
+    ]
+   ]
+  }
+ ],
+ "mounts": [
+  {
+   "name": "fixed",
+   "fold": 1,
+   "hinge": [
+    0,
+    0.54,
+    0.31
+   ],
+   "parts": [
+    {
+     "asset": "parts-maul/mount-cradle.vpt.json",
+     "role": "mount",
+     "at": [
+      0,
+      0.48,
+      0.27
+     ]
+    }
+   ],
+   "multi": []
+  }
+ ]
+}

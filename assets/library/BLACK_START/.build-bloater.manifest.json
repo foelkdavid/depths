@@ -1,0 +1,27 @@
+{
+ "script": "build-bloater.js",
+ "note": "SHA-256 of generated files; see generated-guard.js",
+ "files": {
+  "alien-bloater.anim.json": "3aa8dc168e4f1e9ad051ec7a52e0957766c2556d426490d7842d71469425859d",
+  "alien-bloater.materials.json": "5edcdc5cc0dc452f3a64cd7af77af0ae494eb9edd3f4ca5f2e7a0359c1aaa3f4",
+  "alien-bloater.rig.json": "a9c464492c8a383c684102f282368ec8fc317e498d6ee7c96bb84ed80bed72e4",
+  "alien-bloater.vpt.json": "7391df2f34ee54d1743c0f515d7899e14f4f070ffa1a810e0bfb1d6d71d5c0bb",
+  "parts-bloater/body.vpt.json": "7ae10e85f0e36e01ce40584922187d3922a33f1fb5044173b95f53deef5a286b",
+  "parts-bloater/head.vpt.json": "ab585c34416592aef7d0058d570f26d5f4c9875018e0ff7b3a55fd637dde0df5",
+  "parts-bloater/leg0.femur.vpt.json": "579d6f192fd77dce5b25025022a4cf4401dc5aa95826ea13990e8302a0e400cd",
+  "parts-bloater/leg0.tibia.vpt.json": "0921af9b5df81b853bc3c5b39f564a5bb5aceffaea20eeb90ccae17e7fb4b042",
+  "parts-bloater/leg1.femur.vpt.json": "8070cd34e653b2cbd5e31c751bd4388fc46c6fe936ed17aa5992f8da1ed96f3f",
+  "parts-bloater/leg1.tibia.vpt.json": "5bad7c37a929832dc2c19fb51270a27267ea129466d9137fd223fa6872be8a03",
+  "parts-bloater/leg2.femur.vpt.json": "70e3034185b49dc0bf33a1d16b8669b873123c559a2398c9bcfc9aa91ecd3162",
+  "parts-bloater/leg2.tibia.vpt.json": "6a55a55bcd04320278d6f28f7c02b0d904b061a176cd7e54112dfeb9514b11e9",
+  "parts-bloater/leg3.femur.vpt.json": "e5fb378101e475fc77dd4849ad165fa5e9c9f02351a6b2110d605500c7f2c98a",
+  "parts-bloater/leg3.tibia.vpt.json": "a7cf6ea7c5cbaec0f6e886100f19bd160e20b841356123caf70fd45f9c21802b",
+  "parts-bloater/leg4.femur.vpt.json": "02f77561a71ff0a41f6da5a2bd226c198c499a5e78f86c3e9dc802d04b3ea63c",
+  "parts-bloater/leg4.tibia.vpt.json": "d6c44eb73450f9e8e29d594e144b52dd1d7392feb0c0d9698e1450728f3bfe76",
+  "parts-bloater/leg5.femur.vpt.json": "28c0e543214be34bb8dfd32bc1cd22fdbdc90820bb776215b59ade4b1b33b35a",
+  "parts-bloater/leg5.tibia.vpt.json": "284a93603f930f2f519d35f2f3c8367ef234a7699e2a8c45aa40850f4dcdc73a",
+  "parts-bloater/materials.json": "5edcdc5cc0dc452f3a64cd7af77af0ae494eb9edd3f4ca5f2e7a0359c1aaa3f4",
+  "parts-bloater/sac.vpt.json": "786651901ee9f6bef0a802efcc657919a2a7088339034b84858ee5c26b49ff94",
+  "vox/alien-bloater.vox": "78d2654d663c71184ff1122c0f350414bcf91df5e590d0a0a3f1ad61f9a6a3f6"
+ }
+}

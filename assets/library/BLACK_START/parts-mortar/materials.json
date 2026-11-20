@@ -1,0 +1,5 @@
+{"version":1,"materials":[
+  {"color":[150,196,214],"glass":1,"tint":0.25},
+  {"color":[240,236,210],"glow":6,"light":[255,222,176],"cone":40,"pitch":0,"yaw":0,"range":22},
+  {"color":[255,170,30],"glow":1.8,"range":0.3,"blink":0.8}
+]}

@@ -1,0 +1,116 @@
+{
+ "version": 1,
+ "locomotion": {
+  "speed": 2.6,
+  "turn_rate": 720,
+  "ground_follow": true,
+  "accel": 24,
+  "erratic": 0.85,
+  "accel_pitch": 0.03,
+  "turn_roll": 0.05
+ },
+ "legs": [
+  {
+   "chain": [
+    "leg0.femur",
+    "leg0.tibia"
+   ],
+   "foot": [
+    -0.44,
+    0,
+    0.29
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg1.femur",
+    "leg1.tibia"
+   ],
+   "foot": [
+    -0.44,
+    0,
+    -0.07
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg2.femur",
+    "leg2.tibia"
+   ],
+   "foot": [
+    -0.44,
+    0,
+    -0.43
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg3.femur",
+    "leg3.tibia"
+   ],
+   "foot": [
+    0.44,
+    0,
+    0.29
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg4.femur",
+    "leg4.tibia"
+   ],
+   "foot": [
+    0.44,
+    0,
+    -0.07
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg5.femur",
+    "leg5.tibia"
+   ],
+   "foot": [
+    0.44,
+    0,
+    -0.43
+   ],
+   "group": 1
+  }
+ ],
+ "gait": {
+  "stride": 0.2,
+  "lift": 0.08,
+  "step_time": 0.075,
+  "fidget": 4.5
+ },
+ "look": {
+  "part": "head",
+  "yaw_limit": 45,
+  "pitch_min": -18,
+  "pitch_max": 22,
+  "stiffness": 38,
+  "scan_min": 0.08,
+  "scan_max": 0.45,
+  "scan_range": 150,
+  "lean": 0.02,
+  "crouch": 0.05,
+  "roll": 14
+ },
+ "twitches": [
+  {
+   "part": "head",
+   "amount": 16,
+   "rate": 6
+  }
+ ],
+ "bob": {
+  "part": "body",
+  "amount": 0.01
+ }
+}

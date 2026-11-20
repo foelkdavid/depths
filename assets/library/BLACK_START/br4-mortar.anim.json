@@ -1,0 +1,88 @@
+{
+ "version": 1,
+ "locomotion": {
+  "speed": 2.25,
+  "turn_rate": 170,
+  "accel": 5,
+  "body_height": 0,
+  "ground_follow": true,
+  "accel_pitch": 0.05,
+  "turn_roll": -0.035
+ },
+ "gait": {
+  "stride": 0.62,
+  "lift": 0.12,
+  "step_time": 0.36
+ },
+ "look": {
+  "part": "body",
+  "yaw_limit": 22,
+  "pitch_min": -14,
+  "pitch_max": 20,
+  "stiffness": 4.5,
+  "scan_min": 2,
+  "scan_max": 4.5,
+  "scan_range": 75,
+  "lean": 0.03,
+  "crouch": 0.2,
+  "roll": 3
+ },
+ "bob": {
+  "part": "body",
+  "amount": 0.022
+ },
+ "legs": [
+  {
+   "chain": [
+    "leg0.coxa",
+    "leg0.femur",
+    "leg0.tibia"
+   ],
+   "foot": [
+    -0.9848,
+    0,
+    0.8485
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg1.coxa",
+    "leg1.femur",
+    "leg1.tibia"
+   ],
+   "foot": [
+    -0.9848,
+    0,
+    -0.8485
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg2.coxa",
+    "leg2.femur",
+    "leg2.tibia"
+   ],
+   "foot": [
+    0.9848,
+    0,
+    0.8485
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg3.coxa",
+    "leg3.femur",
+    "leg3.tibia"
+   ],
+   "foot": [
+    0.9848,
+    0,
+    -0.8485
+   ],
+   "group": 0
+  }
+ ]
+}

@@ -1,0 +1,426 @@
+{
+ "version": 1,
+ "name": "alien-crawler",
+ "parts": [
+  {
+   "name": "body",
+   "asset": "parts-crawler/body.vpt.json",
+   "parent": "",
+   "shift": [
+    0,
+    0.425,
+    -0.2125
+   ],
+   "joint": [
+    0,
+    0.625,
+    -0.075
+   ]
+  },
+  {
+   "name": "head",
+   "asset": "parts-crawler/head.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.0125,
+    0.425,
+    0.5
+   ],
+   "joint": [
+    0,
+    0.575,
+    0.425
+   ]
+  },
+  {
+   "name": "mandible.l",
+   "asset": "parts-crawler/mandible.l.vpt.json",
+   "parent": "head",
+   "shift": [
+    -0.1125,
+    0.425,
+    0.825
+   ],
+   "joint": [
+    -0.0875,
+    0.5125,
+    0.675
+   ]
+  },
+  {
+   "name": "mandible.r",
+   "asset": "parts-crawler/mandible.r.vpt.json",
+   "parent": "head",
+   "shift": [
+    0.1125,
+    0.425,
+    0.825
+   ],
+   "joint": [
+    0.0875,
+    0.5125,
+    0.675
+   ]
+  },
+  {
+   "name": "feeler.l",
+   "asset": "parts-crawler/feeler.l.vpt.json",
+   "parent": "head",
+   "shift": [
+    -0.2625,
+    0.6,
+    0.9625
+   ],
+   "joint": [
+    -0.125,
+    0.625,
+    0.675
+   ]
+  },
+  {
+   "name": "feeler.r",
+   "asset": "parts-crawler/feeler.r.vpt.json",
+   "parent": "head",
+   "shift": [
+    0.2625,
+    0.6,
+    0.9625
+   ],
+   "joint": [
+    0.125,
+    0.625,
+    0.675
+   ]
+  },
+  {
+   "name": "tail1",
+   "asset": "parts-crawler/tail1.vpt.json",
+   "parent": "body",
+   "shift": [
+    0,
+    0.575,
+    -0.925
+   ],
+   "joint": [
+    0,
+    0.725,
+    -0.775
+   ]
+  },
+  {
+   "name": "tail2",
+   "asset": "parts-crawler/tail2.vpt.json",
+   "parent": "tail1",
+   "shift": [
+    0,
+    0.8,
+    -1
+   ],
+   "joint": [
+    0,
+    0.9,
+    -1.125
+   ]
+  },
+  {
+   "name": "leg0.femur",
+   "asset": "parts-crawler/leg0.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.425,
+    0.525,
+    0.4875
+   ],
+   "joint": [
+    -0.2,
+    0.6,
+    0.325
+   ]
+  },
+  {
+   "name": "leg0.tibia",
+   "asset": "parts-crawler/leg0.tibia.vpt.json",
+   "parent": "leg0.femur",
+   "shift": [
+    -0.825,
+    0,
+    0.7875
+   ],
+   "joint": [
+    -0.68,
+    1.15,
+    0.685
+   ]
+  },
+  {
+   "name": "leg1.femur",
+   "asset": "parts-crawler/leg1.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.4625,
+    0.525,
+    0.2375
+   ],
+   "joint": [
+    -0.2,
+    0.6,
+    0.175
+   ]
+  },
+  {
+   "name": "leg1.tibia",
+   "asset": "parts-crawler/leg1.tibia.vpt.json",
+   "parent": "leg1.femur",
+   "shift": [
+    -0.925,
+    0,
+    0.3625
+   ],
+   "joint": [
+    -0.755,
+    1.2,
+    0.325
+   ]
+  },
+  {
+   "name": "leg2.femur",
+   "asset": "parts-crawler/leg2.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.475,
+    0.525,
+    0.025
+   ],
+   "joint": [
+    -0.2,
+    0.6,
+    0.025
+   ]
+  },
+  {
+   "name": "leg2.tibia",
+   "asset": "parts-crawler/leg2.tibia.vpt.json",
+   "parent": "leg2.femur",
+   "shift": [
+    -0.95,
+    0,
+    0.025
+   ],
+   "joint": [
+    -0.77,
+    1.25,
+    0.025
+   ]
+  },
+  {
+   "name": "leg3.femur",
+   "asset": "parts-crawler/leg3.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.4625,
+    0.525,
+    -0.1875
+   ],
+   "joint": [
+    -0.2,
+    0.6,
+    -0.125
+   ]
+  },
+  {
+   "name": "leg3.tibia",
+   "asset": "parts-crawler/leg3.tibia.vpt.json",
+   "parent": "leg3.femur",
+   "shift": [
+    -0.925,
+    0,
+    -0.3125
+   ],
+   "joint": [
+    -0.755,
+    1.2,
+    -0.275
+   ]
+  },
+  {
+   "name": "leg4.femur",
+   "asset": "parts-crawler/leg4.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.4375,
+    0.525,
+    -0.4375
+   ],
+   "joint": [
+    -0.2,
+    0.6,
+    -0.275
+   ]
+  },
+  {
+   "name": "leg4.tibia",
+   "asset": "parts-crawler/leg4.tibia.vpt.json",
+   "parent": "leg4.femur",
+   "shift": [
+    -0.85,
+    0,
+    -0.7375
+   ],
+   "joint": [
+    -0.695,
+    1.15,
+    -0.635
+   ]
+  },
+  {
+   "name": "leg5.femur",
+   "asset": "parts-crawler/leg5.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.425,
+    0.525,
+    0.4875
+   ],
+   "joint": [
+    0.2,
+    0.6,
+    0.325
+   ]
+  },
+  {
+   "name": "leg5.tibia",
+   "asset": "parts-crawler/leg5.tibia.vpt.json",
+   "parent": "leg5.femur",
+   "shift": [
+    0.825,
+    0,
+    0.7875
+   ],
+   "joint": [
+    0.68,
+    1.15,
+    0.685
+   ]
+  },
+  {
+   "name": "leg6.femur",
+   "asset": "parts-crawler/leg6.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.4625,
+    0.525,
+    0.2375
+   ],
+   "joint": [
+    0.2,
+    0.6,
+    0.175
+   ]
+  },
+  {
+   "name": "leg6.tibia",
+   "asset": "parts-crawler/leg6.tibia.vpt.json",
+   "parent": "leg6.femur",
+   "shift": [
+    0.925,
+    0,
+    0.3625
+   ],
+   "joint": [
+    0.755,
+    1.2,
+    0.325
+   ]
+  },
+  {
+   "name": "leg7.femur",
+   "asset": "parts-crawler/leg7.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.475,
+    0.525,
+    0.025
+   ],
+   "joint": [
+    0.2,
+    0.6,
+    0.025
+   ]
+  },
+  {
+   "name": "leg7.tibia",
+   "asset": "parts-crawler/leg7.tibia.vpt.json",
+   "parent": "leg7.femur",
+   "shift": [
+    0.95,
+    0,
+    0.025
+   ],
+   "joint": [
+    0.77,
+    1.25,
+    0.025
+   ]
+  },
+  {
+   "name": "leg8.femur",
+   "asset": "parts-crawler/leg8.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.4625,
+    0.525,
+    -0.1875
+   ],
+   "joint": [
+    0.2,
+    0.6,
+    -0.125
+   ]
+  },
+  {
+   "name": "leg8.tibia",
+   "asset": "parts-crawler/leg8.tibia.vpt.json",
+   "parent": "leg8.femur",
+   "shift": [
+    0.925,
+    0,
+    -0.3125
+   ],
+   "joint": [
+    0.755,
+    1.2,
+    -0.275
+   ]
+  },
+  {
+   "name": "leg9.femur",
+   "asset": "parts-crawler/leg9.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.4375,
+    0.525,
+    -0.4375
+   ],
+   "joint": [
+    0.2,
+    0.6,
+    -0.275
+   ]
+  },
+  {
+   "name": "leg9.tibia",
+   "asset": "parts-crawler/leg9.tibia.vpt.json",
+   "parent": "leg9.femur",
+   "shift": [
+    0.85,
+    0,
+    -0.7375
+   ],
+   "joint": [
+    0.695,
+    1.15,
+    -0.635
+   ]
+  }
+ ]
+}

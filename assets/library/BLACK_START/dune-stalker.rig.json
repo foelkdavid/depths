@@ -1,0 +1,156 @@
+{
+ "version": 1,
+ "name": "dune-stalker",
+ "parts": [
+  {
+   "name": "body",
+   "parent": "",
+   "asset": "parts-stalker/body.vpt.json",
+   "joint": [
+    0,
+    0.725,
+    -0.075
+   ],
+   "shift": [
+    0,
+    0.525,
+    -0.1625
+   ]
+  },
+  {
+   "name": "head",
+   "parent": "body",
+   "asset": "parts-stalker/head.vpt.json",
+   "joint": [
+    0,
+    0.75,
+    0.4
+   ],
+   "shift": [
+    0,
+    0.5,
+    0.5875
+   ]
+  },
+  {
+   "name": "leg0.femur",
+   "parent": "body",
+   "asset": "parts-stalker/leg0.femur.vpt.json",
+   "joint": [
+    -0.2,
+    0.675,
+    0.25
+   ],
+   "shift": [
+    -0.4,
+    0.65,
+    0.3625
+   ]
+  },
+  {
+   "name": "leg0.tibia",
+   "parent": "leg0.femur",
+   "asset": "parts-stalker/leg0.tibia.vpt.json",
+   "joint": [
+    -0.6,
+    0.925,
+    0.475
+   ],
+   "shift": [
+    -0.725,
+    0,
+    0.5875
+   ]
+  },
+  {
+   "name": "leg1.femur",
+   "parent": "body",
+   "asset": "parts-stalker/leg1.femur.vpt.json",
+   "joint": [
+    -0.2,
+    0.675,
+    -0.375
+   ],
+   "shift": [
+    -0.4,
+    0.65,
+    -0.5
+   ]
+  },
+  {
+   "name": "leg1.tibia",
+   "parent": "leg1.femur",
+   "asset": "parts-stalker/leg1.tibia.vpt.json",
+   "joint": [
+    -0.6,
+    0.925,
+    -0.625
+   ],
+   "shift": [
+    -0.725,
+    0,
+    -0.75
+   ]
+  },
+  {
+   "name": "leg2.femur",
+   "parent": "body",
+   "asset": "parts-stalker/leg2.femur.vpt.json",
+   "joint": [
+    0.2,
+    0.675,
+    0.25
+   ],
+   "shift": [
+    0.4,
+    0.65,
+    0.3625
+   ]
+  },
+  {
+   "name": "leg2.tibia",
+   "parent": "leg2.femur",
+   "asset": "parts-stalker/leg2.tibia.vpt.json",
+   "joint": [
+    0.6,
+    0.925,
+    0.475
+   ],
+   "shift": [
+    0.725,
+    0,
+    0.5875
+   ]
+  },
+  {
+   "name": "leg3.femur",
+   "parent": "body",
+   "asset": "parts-stalker/leg3.femur.vpt.json",
+   "joint": [
+    0.2,
+    0.675,
+    -0.375
+   ],
+   "shift": [
+    0.4,
+    0.65,
+    -0.5
+   ]
+  },
+  {
+   "name": "leg3.tibia",
+   "parent": "leg3.femur",
+   "asset": "parts-stalker/leg3.tibia.vpt.json",
+   "joint": [
+    0.6,
+    0.925,
+    -0.625
+   ],
+   "shift": [
+    0.725,
+    0,
+    -0.75
+   ]
+  }
+ ]
+}

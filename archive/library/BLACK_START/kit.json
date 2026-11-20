@@ -1,0 +1,7 @@
+{"version":1,"name":"BLACK_START","size":4.0,
+ "floor":"corridor-floor.vpt.json",
+ "wall":"wall-panel.vpt.json",
+ "window":"wall-window.vpt.json",
+ "door":"bulkhead-door.vpt.json",
+ "doorway":"doorway.vpt.json",
+ "corner":"corner-post.vpt.json"}

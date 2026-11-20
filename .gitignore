@@ -1,0 +1,11 @@
+build/
+dist/
+dev/output/
+__pycache__/
+*.tmp
+.vpt-editor.json
+scenes/
+assets/library/BLACK_START/previews/
+assets/library/BLACK_START/renders/
+assets/library/BLACK_START/.generator-backups/
+assets/generated/

@@ -1,0 +1,216 @@
+{
+ "version": 1,
+ "name": "ash-scavenger",
+ "parts": [
+  {
+   "name": "body",
+   "parent": "",
+   "asset": "parts-scavenger/body.vpt.json",
+   "joint": [
+    0,
+    0.2,
+    -0.07
+   ],
+   "shift": [
+    0,
+    0.08,
+    -0.11
+   ]
+  },
+  {
+   "name": "head",
+   "parent": "body",
+   "asset": "parts-scavenger/head.vpt.json",
+   "joint": [
+    0,
+    0.2,
+    0.13
+   ],
+   "shift": [
+    0,
+    0.08,
+    0.27
+   ]
+  },
+  {
+   "name": "leg0.femur",
+   "parent": "body",
+   "asset": "parts-scavenger/leg0.femur.vpt.json",
+   "joint": [
+    -0.12,
+    0.18,
+    0.09
+   ],
+   "shift": [
+    -0.2,
+    0.16,
+    0.14
+   ]
+  },
+  {
+   "name": "leg0.tibia",
+   "parent": "leg0.femur",
+   "asset": "parts-scavenger/leg0.tibia.vpt.json",
+   "joint": [
+    -0.28,
+    0.26,
+    0.19
+   ],
+   "shift": [
+    -0.36,
+    0,
+    0.23
+   ]
+  },
+  {
+   "name": "leg1.femur",
+   "parent": "body",
+   "asset": "parts-scavenger/leg1.femur.vpt.json",
+   "joint": [
+    -0.12,
+    0.18,
+    -0.07
+   ],
+   "shift": [
+    -0.2,
+    0.16,
+    -0.07
+   ]
+  },
+  {
+   "name": "leg1.tibia",
+   "parent": "leg1.femur",
+   "asset": "parts-scavenger/leg1.tibia.vpt.json",
+   "joint": [
+    -0.28,
+    0.26,
+    -0.05
+   ],
+   "shift": [
+    -0.35,
+    0,
+    -0.06
+   ]
+  },
+  {
+   "name": "leg2.femur",
+   "parent": "body",
+   "asset": "parts-scavenger/leg2.femur.vpt.json",
+   "joint": [
+    -0.12,
+    0.18,
+    -0.23
+   ],
+   "shift": [
+    -0.2,
+    0.16,
+    -0.26
+   ]
+  },
+  {
+   "name": "leg2.tibia",
+   "parent": "leg2.femur",
+   "asset": "parts-scavenger/leg2.tibia.vpt.json",
+   "joint": [
+    -0.28,
+    0.26,
+    -0.29
+   ],
+   "shift": [
+    -0.36,
+    0,
+    -0.35
+   ]
+  },
+  {
+   "name": "leg3.femur",
+   "parent": "body",
+   "asset": "parts-scavenger/leg3.femur.vpt.json",
+   "joint": [
+    0.12,
+    0.18,
+    0.09
+   ],
+   "shift": [
+    0.2,
+    0.16,
+    0.14
+   ]
+  },
+  {
+   "name": "leg3.tibia",
+   "parent": "leg3.femur",
+   "asset": "parts-scavenger/leg3.tibia.vpt.json",
+   "joint": [
+    0.28,
+    0.26,
+    0.19
+   ],
+   "shift": [
+    0.36,
+    0,
+    0.23
+   ]
+  },
+  {
+   "name": "leg4.femur",
+   "parent": "body",
+   "asset": "parts-scavenger/leg4.femur.vpt.json",
+   "joint": [
+    0.12,
+    0.18,
+    -0.07
+   ],
+   "shift": [
+    0.2,
+    0.16,
+    -0.07
+   ]
+  },
+  {
+   "name": "leg4.tibia",
+   "parent": "leg4.femur",
+   "asset": "parts-scavenger/leg4.tibia.vpt.json",
+   "joint": [
+    0.28,
+    0.26,
+    -0.05
+   ],
+   "shift": [
+    0.35,
+    0,
+    -0.06
+   ]
+  },
+  {
+   "name": "leg5.femur",
+   "parent": "body",
+   "asset": "parts-scavenger/leg5.femur.vpt.json",
+   "joint": [
+    0.12,
+    0.18,
+    -0.23
+   ],
+   "shift": [
+    0.2,
+    0.16,
+    -0.26
+   ]
+  },
+  {
+   "name": "leg5.tibia",
+   "parent": "leg5.femur",
+   "asset": "parts-scavenger/leg5.tibia.vpt.json",
+   "joint": [
+    0.28,
+    0.26,
+    -0.29
+   ],
+   "shift": [
+    0.36,
+    0,
+    -0.35
+   ]
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "version": 1,
+ "name": "br4-mortar",
+ "parts": [
+  {
+   "name": "body",
+   "asset": "parts-mortar/body.vpt.json",
+   "parent": "",
+   "shift": [
+    0,
+    0.36,
+    0
+   ],
+   "joint": [
+    0,
+    0.6,
+    0
+   ]
+  },
+  {
+   "name": "leg0.coxa",
+   "asset": "parts-mortar/leg0.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.53,
+    0.48,
+    0.44
+   ],
+   "joint": [
+    -0.42,
+    0.6,
+    0.34
+   ]
+  },
+  {
+   "name": "leg0.femur",
+   "asset": "parts-mortar/leg0.femur.vpt.json",
+   "parent": "leg0.coxa",
+   "shift": [
+    -0.76,
+    0.52,
+    0.65
+   ],
+   "joint": [
+    -0.6132,
+    0.64,
+    0.514
+   ]
+  },
+  {
+   "name": "leg0.tibia",
+   "asset": "parts-mortar/leg0.tibia.vpt.json",
+   "parent": "leg0.femur",
+   "shift": [
+    -0.93,
+    0,
+    0.8
+   ],
+   "joint": [
+    -0.8213,
+    0.86,
+    0.7013
+   ]
+  },
+  {
+   "name": "leg1.coxa",
+   "asset": "parts-mortar/leg1.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.53,
+    0.48,
+    -0.44
+   ],
+   "joint": [
+    -0.42,
+    0.6,
+    -0.34
+   ]
+  },
+  {
+   "name": "leg1.femur",
+   "asset": "parts-mortar/leg1.femur.vpt.json",
+   "parent": "leg1.coxa",
+   "shift": [
+    -0.76,
+    0.52,
+    -0.65
+   ],
+   "joint": [
+    -0.6132,
+    0.64,
+    -0.514
+   ]
+  },
+  {
+   "name": "leg1.tibia",
+   "asset": "parts-mortar/leg1.tibia.vpt.json",
+   "parent": "leg1.femur",
+   "shift": [
+    -0.93,
+    0,
+    -0.8
+   ],
+   "joint": [
+    -0.8213,
+    0.86,
+    -0.7013
+   ]
+  },
+  {
+   "name": "leg2.coxa",
+   "asset": "parts-mortar/leg2.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.53,
+    0.48,
+    0.44
+   ],
+   "joint": [
+    0.42,
+    0.6,
+    0.34
+   ]
+  },
+  {
+   "name": "leg2.femur",
+   "asset": "parts-mortar/leg2.femur.vpt.json",
+   "parent": "leg2.coxa",
+   "shift": [
+    0.76,
+    0.52,
+    0.65
+   ],
+   "joint": [
+    0.6132,
+    0.64,
+    0.514
+   ]
+  },
+  {
+   "name": "leg2.tibia",
+   "asset": "parts-mortar/leg2.tibia.vpt.json",
+   "parent": "leg2.femur",
+   "shift": [
+    0.93,
+    0,
+    0.8
+   ],
+   "joint": [
+    0.8213,
+    0.86,
+    0.7013
+   ]
+  },
+  {
+   "name": "leg3.coxa",
+   "asset": "parts-mortar/leg3.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.53,
+    0.48,
+    -0.44
+   ],
+   "joint": [
+    0.42,
+    0.6,
+    -0.34
+   ]
+  },
+  {
+   "name": "leg3.femur",
+   "asset": "parts-mortar/leg3.femur.vpt.json",
+   "parent": "leg3.coxa",
+   "shift": [
+    0.76,
+    0.52,
+    -0.65
+   ],
+   "joint": [
+    0.6132,
+    0.64,
+    -0.514
+   ]
+  },
+  {
+   "name": "leg3.tibia",
+   "asset": "parts-mortar/leg3.tibia.vpt.json",
+   "parent": "leg3.femur",
+   "shift": [
+    0.93,
+    0,
+    -0.8
+   ],
+   "joint": [
+    0.8213,
+    0.86,
+    -0.7013
+   ]
+  }
+ ]
+}

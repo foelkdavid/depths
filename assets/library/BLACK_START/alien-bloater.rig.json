@@ -1,0 +1,231 @@
+{
+ "version": 1,
+ "name": "alien-bloater",
+ "parts": [
+  {
+   "name": "body",
+   "asset": "parts-bloater/body.vpt.json",
+   "parent": "",
+   "shift": [
+    0,
+    0.12,
+    0.01
+   ],
+   "joint": [
+    0,
+    0.26,
+    0.01
+   ]
+  },
+  {
+   "name": "head",
+   "asset": "parts-bloater/head.vpt.json",
+   "parent": "body",
+   "shift": [
+    0,
+    0.12,
+    0.31
+   ],
+   "joint": [
+    0,
+    0.24,
+    0.21
+   ]
+  },
+  {
+   "name": "sac",
+   "asset": "parts-bloater/sac.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.01,
+    0.32,
+    -0.06
+   ],
+   "joint": [
+    0,
+    0.38,
+    -0.05
+   ]
+  },
+  {
+   "name": "leg0.femur",
+   "asset": "parts-bloater/leg0.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.24,
+    0.2,
+    0.19
+   ],
+   "joint": [
+    -0.16,
+    0.24,
+    0.15
+   ]
+  },
+  {
+   "name": "leg0.tibia",
+   "asset": "parts-bloater/leg0.tibia.vpt.json",
+   "parent": "leg0.femur",
+   "shift": [
+    -0.39,
+    0,
+    0.28
+   ],
+   "joint": [
+    -0.32,
+    0.4,
+    0.24
+   ]
+  },
+  {
+   "name": "leg1.femur",
+   "asset": "parts-bloater/leg1.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.25,
+    0.2,
+    0.01
+   ],
+   "joint": [
+    -0.16,
+    0.24,
+    0.01
+   ]
+  },
+  {
+   "name": "leg1.tibia",
+   "asset": "parts-bloater/leg1.tibia.vpt.json",
+   "parent": "leg1.femur",
+   "shift": [
+    -0.41,
+    0,
+    0.01
+   ],
+   "joint": [
+    -0.34,
+    0.4,
+    0.01
+   ]
+  },
+  {
+   "name": "leg2.femur",
+   "asset": "parts-bloater/leg2.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.24,
+    0.2,
+    -0.17
+   ],
+   "joint": [
+    -0.16,
+    0.24,
+    -0.13
+   ]
+  },
+  {
+   "name": "leg2.tibia",
+   "asset": "parts-bloater/leg2.tibia.vpt.json",
+   "parent": "leg2.femur",
+   "shift": [
+    -0.39,
+    0,
+    -0.26
+   ],
+   "joint": [
+    -0.32,
+    0.4,
+    -0.22
+   ]
+  },
+  {
+   "name": "leg3.femur",
+   "asset": "parts-bloater/leg3.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.24,
+    0.2,
+    0.19
+   ],
+   "joint": [
+    0.16,
+    0.24,
+    0.15
+   ]
+  },
+  {
+   "name": "leg3.tibia",
+   "asset": "parts-bloater/leg3.tibia.vpt.json",
+   "parent": "leg3.femur",
+   "shift": [
+    0.39,
+    0,
+    0.28
+   ],
+   "joint": [
+    0.32,
+    0.4,
+    0.24
+   ]
+  },
+  {
+   "name": "leg4.femur",
+   "asset": "parts-bloater/leg4.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.25,
+    0.2,
+    0.01
+   ],
+   "joint": [
+    0.16,
+    0.24,
+    0.01
+   ]
+  },
+  {
+   "name": "leg4.tibia",
+   "asset": "parts-bloater/leg4.tibia.vpt.json",
+   "parent": "leg4.femur",
+   "shift": [
+    0.41,
+    0,
+    0.01
+   ],
+   "joint": [
+    0.34,
+    0.4,
+    0.01
+   ]
+  },
+  {
+   "name": "leg5.femur",
+   "asset": "parts-bloater/leg5.femur.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.24,
+    0.2,
+    -0.17
+   ],
+   "joint": [
+    0.16,
+    0.24,
+    -0.13
+   ]
+  },
+  {
+   "name": "leg5.tibia",
+   "asset": "parts-bloater/leg5.tibia.vpt.json",
+   "parent": "leg5.femur",
+   "shift": [
+    0.39,
+    0,
+    -0.26
+   ],
+   "joint": [
+    0.32,
+    0.4,
+    -0.22
+   ]
+  }
+ ]
+}

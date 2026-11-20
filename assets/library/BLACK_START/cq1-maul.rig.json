@@ -1,0 +1,381 @@
+{
+ "version": 1,
+ "name": "cq1-maul",
+ "parts": [
+  {
+   "name": "body",
+   "asset": "parts-maul/body.vpt.json",
+   "parent": "",
+   "shift": [
+    0,
+    0.08,
+    0.11
+   ],
+   "joint": [
+    0,
+    0.44,
+    0.01
+   ]
+  },
+  {
+   "name": "leg0.coxa",
+   "asset": "parts-maul/leg0.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.3,
+    0.34,
+    0.28
+   ],
+   "joint": [
+    -0.24,
+    0.44,
+    0.23
+   ]
+  },
+  {
+   "name": "leg0.femur",
+   "asset": "parts-maul/leg0.femur.vpt.json",
+   "parent": "leg0.coxa",
+   "shift": [
+    -0.45,
+    0.44,
+    0.4
+   ],
+   "joint": [
+    -0.3503,
+    0.48,
+    0.3162
+   ]
+  },
+  {
+   "name": "leg0.tibia",
+   "asset": "parts-maul/leg0.tibia.vpt.json",
+   "parent": "leg0.femur",
+   "shift": [
+    -0.57,
+    0.02,
+    0.49
+   ],
+   "joint": [
+    -0.5079,
+    0.62,
+    0.4393
+   ]
+  },
+  {
+   "name": "leg1.coxa",
+   "asset": "parts-maul/leg1.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.31,
+    0.34,
+    0.09
+   ],
+   "joint": [
+    -0.24,
+    0.44,
+    0.07
+   ]
+  },
+  {
+   "name": "leg1.femur",
+   "asset": "parts-maul/leg1.femur.vpt.json",
+   "parent": "leg1.coxa",
+   "shift": [
+    -0.5,
+    0.44,
+    0.14
+   ],
+   "joint": [
+    -0.3769,
+    0.48,
+    0.0991
+   ]
+  },
+  {
+   "name": "leg1.tibia",
+   "asset": "parts-maul/leg1.tibia.vpt.json",
+   "parent": "leg1.femur",
+   "shift": [
+    -0.65,
+    0.02,
+    0.16
+   ],
+   "joint": [
+    -0.5726,
+    0.62,
+    0.1407
+   ]
+  },
+  {
+   "name": "leg2.coxa",
+   "asset": "parts-maul/leg2.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.31,
+    0.34,
+    -0.13
+   ],
+   "joint": [
+    -0.24,
+    0.44,
+    -0.11
+   ]
+  },
+  {
+   "name": "leg2.femur",
+   "asset": "parts-maul/leg2.femur.vpt.json",
+   "parent": "leg2.coxa",
+   "shift": [
+    -0.5,
+    0.44,
+    -0.19
+   ],
+   "joint": [
+    -0.3758,
+    0.48,
+    -0.1439
+   ]
+  },
+  {
+   "name": "leg2.tibia",
+   "asset": "parts-maul/leg2.tibia.vpt.json",
+   "parent": "leg2.femur",
+   "shift": [
+    -0.65,
+    0,
+    -0.2
+   ],
+   "joint": [
+    -0.5699,
+    0.62,
+    -0.1923
+   ]
+  },
+  {
+   "name": "leg3.coxa",
+   "asset": "parts-maul/leg3.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.3,
+    0.34,
+    -0.35
+   ],
+   "joint": [
+    -0.24,
+    0.44,
+    -0.29
+   ]
+  },
+  {
+   "name": "leg3.femur",
+   "asset": "parts-maul/leg3.femur.vpt.json",
+   "parent": "leg3.coxa",
+   "shift": [
+    -0.44,
+    0.44,
+    -0.47
+   ],
+   "joint": [
+    -0.344,
+    0.48,
+    -0.3837
+   ]
+  },
+  {
+   "name": "leg3.tibia",
+   "asset": "parts-maul/leg3.tibia.vpt.json",
+   "parent": "leg3.femur",
+   "shift": [
+    -0.55,
+    0.02,
+    -0.57
+   ],
+   "joint": [
+    -0.4927,
+    0.62,
+    -0.5175
+   ]
+  },
+  {
+   "name": "leg4.coxa",
+   "asset": "parts-maul/leg4.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.3,
+    0.34,
+    0.28
+   ],
+   "joint": [
+    0.24,
+    0.44,
+    0.23
+   ]
+  },
+  {
+   "name": "leg4.femur",
+   "asset": "parts-maul/leg4.femur.vpt.json",
+   "parent": "leg4.coxa",
+   "shift": [
+    0.45,
+    0.44,
+    0.4
+   ],
+   "joint": [
+    0.3503,
+    0.48,
+    0.3162
+   ]
+  },
+  {
+   "name": "leg4.tibia",
+   "asset": "parts-maul/leg4.tibia.vpt.json",
+   "parent": "leg4.femur",
+   "shift": [
+    0.57,
+    0.02,
+    0.49
+   ],
+   "joint": [
+    0.5079,
+    0.62,
+    0.4393
+   ]
+  },
+  {
+   "name": "leg5.coxa",
+   "asset": "parts-maul/leg5.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.31,
+    0.34,
+    0.09
+   ],
+   "joint": [
+    0.24,
+    0.44,
+    0.07
+   ]
+  },
+  {
+   "name": "leg5.femur",
+   "asset": "parts-maul/leg5.femur.vpt.json",
+   "parent": "leg5.coxa",
+   "shift": [
+    0.5,
+    0.44,
+    0.14
+   ],
+   "joint": [
+    0.3769,
+    0.48,
+    0.0991
+   ]
+  },
+  {
+   "name": "leg5.tibia",
+   "asset": "parts-maul/leg5.tibia.vpt.json",
+   "parent": "leg5.femur",
+   "shift": [
+    0.65,
+    0.02,
+    0.16
+   ],
+   "joint": [
+    0.5726,
+    0.62,
+    0.1407
+   ]
+  },
+  {
+   "name": "leg6.coxa",
+   "asset": "parts-maul/leg6.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.31,
+    0.34,
+    -0.13
+   ],
+   "joint": [
+    0.24,
+    0.44,
+    -0.11
+   ]
+  },
+  {
+   "name": "leg6.femur",
+   "asset": "parts-maul/leg6.femur.vpt.json",
+   "parent": "leg6.coxa",
+   "shift": [
+    0.5,
+    0.44,
+    -0.19
+   ],
+   "joint": [
+    0.3758,
+    0.48,
+    -0.1439
+   ]
+  },
+  {
+   "name": "leg6.tibia",
+   "asset": "parts-maul/leg6.tibia.vpt.json",
+   "parent": "leg6.femur",
+   "shift": [
+    0.65,
+    0,
+    -0.2
+   ],
+   "joint": [
+    0.5699,
+    0.62,
+    -0.1923
+   ]
+  },
+  {
+   "name": "leg7.coxa",
+   "asset": "parts-maul/leg7.coxa.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.3,
+    0.34,
+    -0.35
+   ],
+   "joint": [
+    0.24,
+    0.44,
+    -0.29
+   ]
+  },
+  {
+   "name": "leg7.femur",
+   "asset": "parts-maul/leg7.femur.vpt.json",
+   "parent": "leg7.coxa",
+   "shift": [
+    0.44,
+    0.44,
+    -0.47
+   ],
+   "joint": [
+    0.344,
+    0.48,
+    -0.3837
+   ]
+  },
+  {
+   "name": "leg7.tibia",
+   "asset": "parts-maul/leg7.tibia.vpt.json",
+   "parent": "leg7.femur",
+   "shift": [
+    0.55,
+    0.02,
+    -0.57
+   ],
+   "joint": [
+    0.4927,
+    0.62,
+    -0.5175
+   ]
+  }
+ ]
+}

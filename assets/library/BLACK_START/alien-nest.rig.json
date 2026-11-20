@@ -1,0 +1,321 @@
+{
+ "version": 1,
+ "name": "alien-nest",
+ "parts": [
+  {
+   "name": "body",
+   "asset": "parts-nest/body.vpt.json",
+   "parent": "",
+   "shift": [
+    0,
+    0,
+    0.14
+   ],
+   "joint": [
+    0,
+    0.26,
+    0.14
+   ]
+  },
+  {
+   "name": "sac0",
+   "asset": "parts-nest/sac0.vpt.json",
+   "parent": "body",
+   "shift": [
+    0,
+    0.22,
+    0.1
+   ],
+   "joint": [
+    0,
+    0.3045,
+    0.1
+   ]
+  },
+  {
+   "name": "sac1",
+   "asset": "parts-nest/sac1.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.24,
+    0.2,
+    0.26
+   ],
+   "joint": [
+    -0.24,
+    0.264,
+    0.26
+   ]
+  },
+  {
+   "name": "sac2",
+   "asset": "parts-nest/sac2.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.22,
+    0.2,
+    0.3
+   ],
+   "joint": [
+    0.22,
+    0.2525,
+    0.3
+   ]
+  },
+  {
+   "name": "sac3",
+   "asset": "parts-nest/sac3.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.16,
+    0.22,
+    -0.1
+   ],
+   "joint": [
+    0.16,
+    0.2755,
+    -0.1
+   ]
+  },
+  {
+   "name": "sac4",
+   "asset": "parts-nest/sac4.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.18,
+    0.22,
+    -0.1
+   ],
+   "joint": [
+    -0.18,
+    0.261,
+    -0.1
+   ]
+  },
+  {
+   "name": "sac5",
+   "asset": "parts-nest/sac5.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.04,
+    0.22,
+    0.43
+   ],
+   "joint": [
+    0.04,
+    0.258,
+    0.44
+   ]
+  },
+  {
+   "name": "strand0.root",
+   "asset": "parts-nest/strand0.root.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.47,
+    0.12,
+    0.02
+   ],
+   "joint": [
+    -0.36,
+    0.22,
+    0.14
+   ]
+  },
+  {
+   "name": "strand0.tip",
+   "asset": "parts-nest/strand0.tip.vpt.json",
+   "parent": "strand0.root",
+   "shift": [
+    -0.79,
+    0.04,
+    0.01
+   ],
+   "joint": [
+    -0.64,
+    0.164,
+    -0.14
+   ]
+  },
+  {
+   "name": "strand1.root",
+   "asset": "parts-nest/strand1.root.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.48,
+    0.12,
+    0.26
+   ],
+   "joint": [
+    0.36,
+    0.22,
+    0.14
+   ]
+  },
+  {
+   "name": "strand1.tip",
+   "asset": "parts-nest/strand1.tip.vpt.json",
+   "parent": "strand1.root",
+   "shift": [
+    0.79,
+    0.04,
+    0.27
+   ],
+   "joint": [
+    0.64,
+    0.164,
+    0.42
+   ]
+  },
+  {
+   "name": "strand2.root",
+   "asset": "parts-nest/strand2.root.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.12,
+    0.12,
+    -0.34
+   ],
+   "joint": [
+    0,
+    0.22,
+    -0.22
+   ]
+  },
+  {
+   "name": "strand2.tip",
+   "asset": "parts-nest/strand2.tip.vpt.json",
+   "parent": "strand2.root",
+   "shift": [
+    0.13,
+    0.04,
+    -0.65
+   ],
+   "joint": [
+    0.28,
+    0.164,
+    -0.5
+   ]
+  },
+  {
+   "name": "strand3.root",
+   "asset": "parts-nest/strand3.root.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.26,
+    0.12,
+    -0.29
+   ],
+   "joint": [
+    -0.2546,
+    0.22,
+    -0.1146
+   ]
+  },
+  {
+   "name": "strand3.tip",
+   "asset": "parts-nest/strand3.tip.vpt.json",
+   "parent": "strand3.root",
+   "shift": [
+    -0.46,
+    0.04,
+    -0.51
+   ],
+   "joint": [
+    -0.2546,
+    0.164,
+    -0.5105
+   ]
+  },
+  {
+   "name": "strand4.root",
+   "asset": "parts-nest/strand4.root.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.43,
+    0.12,
+    -0.11
+   ],
+   "joint": [
+    0.2546,
+    0.22,
+    -0.1146
+   ]
+  },
+  {
+   "name": "strand4.tip",
+   "asset": "parts-nest/strand4.tip.vpt.json",
+   "parent": "strand4.root",
+   "shift": [
+    0.65,
+    0.04,
+    -0.32
+   ],
+   "joint": [
+    0.6505,
+    0.164,
+    -0.1146
+   ]
+  },
+  {
+   "name": "strand5.root",
+   "asset": "parts-nest/strand5.root.vpt.json",
+   "parent": "body",
+   "shift": [
+    -0.43,
+    0.12,
+    0.39
+   ],
+   "joint": [
+    -0.2546,
+    0.22,
+    0.3946
+   ]
+  },
+  {
+   "name": "strand5.tip",
+   "asset": "parts-nest/strand5.tip.vpt.json",
+   "parent": "strand5.root",
+   "shift": [
+    -0.65,
+    0.04,
+    0.6
+   ],
+   "joint": [
+    -0.6505,
+    0.164,
+    0.3946
+   ]
+  },
+  {
+   "name": "strand6.root",
+   "asset": "parts-nest/strand6.root.vpt.json",
+   "parent": "body",
+   "shift": [
+    0.26,
+    0.12,
+    0.57
+   ],
+   "joint": [
+    0.2546,
+    0.22,
+    0.3946
+   ]
+  },
+  {
+   "name": "strand6.tip",
+   "asset": "parts-nest/strand6.tip.vpt.json",
+   "parent": "strand6.root",
+   "shift": [
+    0.46,
+    0.04,
+    0.79
+   ],
+   "joint": [
+    0.2546,
+    0.164,
+    0.7905
+   ]
+  }
+ ]
+}

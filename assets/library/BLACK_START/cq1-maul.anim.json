@@ -1,0 +1,140 @@
+{
+ "version": 1,
+ "locomotion": {
+  "speed": 4.5,
+  "turn_rate": 620,
+  "accel": 22,
+  "body_height": 0,
+  "ground_follow": true,
+  "accel_pitch": 0.04,
+  "turn_roll": -0.03
+ },
+ "gait": {
+  "stride": 0.46,
+  "lift": 0.1,
+  "step_time": 0.12
+ },
+ "look": {
+  "part": "body",
+  "yaw_limit": 26,
+  "pitch_min": -18,
+  "pitch_max": 26,
+  "stiffness": 14,
+  "scan_min": 1,
+  "scan_max": 2.6,
+  "scan_range": 60,
+  "lean": 0.07,
+  "crouch": 0.12,
+  "roll": 7
+ },
+ "bob": {
+  "part": "body",
+  "amount": 0.01
+ },
+ "legs": [
+  {
+   "chain": [
+    "leg0.coxa",
+    "leg0.femur",
+    "leg0.tibia"
+   ],
+   "foot": [
+    -0.6655,
+    0,
+    0.5625
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg1.coxa",
+    "leg1.femur",
+    "leg1.tibia"
+   ],
+   "foot": [
+    -0.7682,
+    0,
+    0.1823
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg2.coxa",
+    "leg2.femur",
+    "leg2.tibia"
+   ],
+   "foot": [
+    -0.764,
+    0,
+    -0.2406
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg3.coxa",
+    "leg3.femur",
+    "leg3.tibia"
+   ],
+   "foot": [
+    -0.6413,
+    0,
+    -0.6513
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg4.coxa",
+    "leg4.femur",
+    "leg4.tibia"
+   ],
+   "foot": [
+    0.6655,
+    0,
+    0.5625
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg5.coxa",
+    "leg5.femur",
+    "leg5.tibia"
+   ],
+   "foot": [
+    0.7682,
+    0,
+    0.1823
+   ],
+   "group": 0
+  },
+  {
+   "chain": [
+    "leg6.coxa",
+    "leg6.femur",
+    "leg6.tibia"
+   ],
+   "foot": [
+    0.764,
+    0,
+    -0.2406
+   ],
+   "group": 1
+  },
+  {
+   "chain": [
+    "leg7.coxa",
+    "leg7.femur",
+    "leg7.tibia"
+   ],
+   "foot": [
+    0.6413,
+    0,
+    -0.6513
+   ],
+   "group": 0
+  }
+ ]
+}
