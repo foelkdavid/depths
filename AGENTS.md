@@ -41,6 +41,10 @@ HOME=$PWD/dev/output/home ./build/depths --run-test   # clean HOME: the user's c
 ./build/depths --shot dev/output/menu [--robot K] [--panel start|settings|bestiary] [--slot N --bestiary-entry K] [--shot-orbit DEG D H]
 ```
 
+**Builds for the user ALWAYS go the release way** (every agent/helper: codex, pi, subagents):
+`c3c build depths && python3 engine/tools/make-release.py depths` -> `dist/depths` (single file, all assets packed,
+runs from any folder). Hand over that path; `build/` binaries are for the automated checks only.
+
 Run tests in the foreground with `WAYLAND_DISPLAY=wayland-1 DISPLAY=:0` (hidden-window hang otherwise; see engine AGENTS).
 Screenshots for the user go to pCloud `/mnt/Cloud/Transfer/VPT_ENGINE/NNN-topic/` (numbered folders).
 
